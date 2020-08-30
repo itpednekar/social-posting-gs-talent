@@ -4,7 +4,7 @@ var express = require('express');
 var app = express();
 
 const hostname = 'localhost';
-const port = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 app.use(function(req, res, next) {
@@ -41,6 +41,6 @@ Submit your resume at https://applicationform-007.web.app/home`
 
 
 
-app.listen(port, hostname, () => {
+app.listen(PORT, hostname, () => {
     console.log(`Server running at http://${hostname}:${port}/`);
 });

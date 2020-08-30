@@ -42,5 +42,5 @@ Submit your resume at https://applicationform-007.web.app/home`
 
 
 app.listen(PORT, hostname, () => {
-    console.log(`Server running at http://${hostname}:${port}/`);
+    console.log(`Server running at http://${hostname}:${PORT}/`);
 });

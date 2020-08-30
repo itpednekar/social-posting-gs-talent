@@ -4,7 +4,7 @@ var express = require('express');
 var app = express();
 
 const hostname = 'localhost';
-const port = 3000;
+const port = process.env.port || 3000;
 
 app.use(express.json());
 app.use(function(req, res, next) {

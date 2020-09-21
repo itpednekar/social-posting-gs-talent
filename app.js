@@ -19,8 +19,7 @@ app.post('/post-fb' ,(req, res) =>{
     const {jobTitle,projectName,posOpenDate,jd,shortSummary, experienceRequired} = req.body;
     let msg = `New Vacancy is created in GS Lab! 
 Vacancy Details => Position : ${jobTitle}, 
-Position Open Date : ${posOpenDate}
-Project : ${projectName}, 
+Position Open Date : ${posOpenDate},
 Technology : ${jd}, 
 Experience : ${experienceRequired}, 
 Summary : ${shortSummary}
